@@ -1,0 +1,6 @@
+query Vaults {
+	vaults {
+    vaultID { vaultSubID }
+    name
+  }
+}

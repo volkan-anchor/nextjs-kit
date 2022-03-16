@@ -1,6 +1,0 @@
-query ExampleQuery {
-  countries {
-    code
-    name
-  }
-}
