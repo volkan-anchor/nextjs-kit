@@ -5,7 +5,7 @@
 - [x] Apollo Server/Client
 - [x] Advance Linting & Prettier
 - [x] Unit Tests
-  - [ ] GQL import support
+  - [ ] GQL import support (https://www.arahansen.com/testing-apollo-components-using-react-testing-library/)
 - [ ] E2E tests
 
 # Steps for Full Setup from Scratch
