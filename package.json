@@ -3,7 +3,6 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "//dev": "next dev",
     "dev": "node server.js",
     "build": "next build",
     "start": "next start",
@@ -36,9 +35,5 @@
       "\\.(gql|graphql)$": "jest-transform-graphql",
       ".*": "babel-jest"
     }
-  },
-  "browser": {
-    "child_process": false,
-    "fs": false
   }
 }
