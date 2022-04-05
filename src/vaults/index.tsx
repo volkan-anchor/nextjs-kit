@@ -2,10 +2,7 @@ import { useQuery } from '@apollo/client';
 import VAULTS_QUERY from './vaults.graphql';
 
 const Vaults = () => {
-  const { data, error } = useQuery(VAULTS_QUERY);
-
-  console.log("VAULTS_QUERY error: ", error)
-  console.log("VAULTS_QUERY data: ", data)
+  const { data } = useQuery(VAULTS_QUERY);
 
   return (
     <div >
