@@ -5,15 +5,12 @@ const APP = 'RISK';
 
 const nextConfig = {
   reactStrictMode: true,
-  webpack: (config, { isServer } ) => {
+  webpack: (config) => {
     config.module.rules.push({
       test: /\.(graphql|gql)$/,
       exclude: /node_modules/,
       loader: 'graphql-tag/loader',
     });
-    if (!isServer) {
-      config.resolve.fallback.fs = false;
-    }
     return config;
   },
   webpackDevMiddleware: config => {
