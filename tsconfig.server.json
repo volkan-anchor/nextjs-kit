@@ -1,0 +1,19 @@
+{
+  "extends": "./tsconfig.json",
+  "compilerOptions": {
+    "module": "commonjs",
+    "outDir": "dist",
+    "lib": [
+      "dom",
+      "dom.iterable",
+      "esnext"
+    ],
+    "target": "es6",
+    "isolatedModules": false,
+    "noEmit": false,
+    "strict": true
+  },
+  "include": [
+    "server/server.ts"
+  ]
+}
